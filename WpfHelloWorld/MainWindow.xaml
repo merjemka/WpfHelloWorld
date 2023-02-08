@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfHelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHelloWorld"
+        mc:Ignorable="d"
+        Title="Hello World Window" Height="300" Width="300">
+    <StackPanel>
+        <Label> Hello World </Label>
+        <Button Click="Hello">
+            <TextBlock FontSize="48">
+        <Run FontWeight="Bold">Hello </Run>
+        <Run FontStyle="Italic">World</Run>
+            </TextBlock>
+        </Button>
+
+    </StackPanel>
+</Window>
